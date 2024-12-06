@@ -38,3 +38,12 @@ Importante
 Si se trabaja en el repositorio que tiene los sub-modulos, primero actualizar y hacer push en el sub-modulo y despues en el repositorio principal.
 
 Si se hace al revés, se perderan las referencias de los sub-modulos en el repositorio principal y tendremos que resolver conflictos.
+
+# Prod
+
+1. Clonar el repositorio
+2. Crear un .env basado en el .env.template
+3. Ejecutar el comando
+```
+docker compose -f docker-compose.prod.yml build
+```
